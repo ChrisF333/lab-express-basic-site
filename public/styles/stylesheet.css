@@ -1,0 +1,45 @@
+body {
+    color: #FFADA6;
+    background-color: #a6f8ff;
+}
+
+header {
+    background-image: url("/images/Home_img.jpg"); /* reminder: we don't need public here as we already made public assests available in app.js so the path is relative to the server*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 600px;
+    height: 350px;
+}
+
+header h1 {
+    color: #A6CBFF;
+    padding-left: 20px;
+    background-color: rgba(166, 255, 217, 0.85);
+}
+
+.links a {
+    color: #FFADA6;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 14pt;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+  }
+  
+ .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+ #gallery-links {
+    margin-top: 20px;
+    clear: left;
+    display: inline-block;
+    float: left;
+}
+
